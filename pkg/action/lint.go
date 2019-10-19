@@ -35,6 +35,7 @@ import (
 type Lint struct {
 	Strict    bool
 	Namespace string
+	WithSubcharts bool
 }
 
 type LintResult struct {
